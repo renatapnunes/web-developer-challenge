@@ -1,6 +1,12 @@
+import Form from '../../components/Form'
+
+import * as S from './style'
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <S.Home>
+      <Form />
+    </S.Home>
   )
 }
 

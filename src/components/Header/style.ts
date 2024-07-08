@@ -2,15 +2,20 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
 
   width: 100%;
   height: 90px;
   border-bottom: 1px solid ${({ theme }) => theme.palette.brandGrey.darkest};
   
   background-color: ${({ theme }) => theme.palette.brandGrey.darker};
+
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    height: 60px;
+  }
 `
 
 export const Title = styled.h1`
