@@ -143,7 +143,7 @@ export const Publish = styled.button`
   &:disabled {
     color: ${({ theme }) => theme.palette.brandGrey.main};
 
-    background-color: ${({ theme }) => theme.palette.brandGrey.light};
+    background-color: ${({ theme }) => theme.palette.brandGrey.lighter};
 
     cursor: auto;
   }

@@ -15,11 +15,14 @@ export const postsSlice = createSlice({
   initialState,
   reducers: {
     publishPost: (state, { payload }: PayloadAction<Post>) => {
-      return [ ...state, payload ]
+      state.unshift(payload)
     },
+    deletePost: (state, { payload }: PayloadAction<number>) => {
+      state.splice(payload, 1)
+    }
   },
 })
 
-export const { publishPost } = postsSlice.actions
+export const { publishPost, deletePost } = postsSlice.actions
 
 export default postsSlice.reducer

@@ -17,7 +17,7 @@ export default {
       main:  '#71BB00',
     },
     brandRed: {
-      main: '#D65924',
+      main: '#A74E27',
     }
   },
   typography: {
@@ -26,6 +26,7 @@ export default {
       small: '10px',
       medium: '11px',
       large: '12px',
+      extraMedium: '14px',
       extraLarge: '22px',
     }
   },
