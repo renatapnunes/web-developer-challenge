@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Header = styled.header`
   display: flex;
@@ -18,11 +19,12 @@ export const Header = styled.header`
   }
 `
 
-export const Title = styled.h1`
+export const Title = styled(Link)`
   font-size: ${({ theme }) => theme.typography.fontSize.extraLarge};
   font-weight: 900;
   letter-spacing: 0px;
   color: ${({ theme }) => theme.palette.brandGreen.main};
+  text-decoration: none;
 `
 
 export const SubTitle = styled.p`
