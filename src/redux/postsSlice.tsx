@@ -19,10 +19,13 @@ export const postsSlice = createSlice({
     },
     deletePost: (state, { payload }: PayloadAction<number>) => {
       state.splice(payload, 1)
-    }
+    },
+    clearAll: () => {
+      return []
+    },
   },
 })
 
-export const { publishPost, deletePost } = postsSlice.actions
+export const { publishPost, deletePost, clearAll } = postsSlice.actions
 
 export default postsSlice.reducer

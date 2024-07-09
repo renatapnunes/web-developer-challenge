@@ -13,7 +13,7 @@ const Feed = () => {
 
   const chunkedPosts = chunkPosts(posts, counter)
 
-  const showSeeMore = posts.length > chunkedPosts.length 
+  const showSeeMore = posts.length > chunkedPosts.length
 
   return (
     <S.Feed>
@@ -25,6 +25,7 @@ const Feed = () => {
       {!posts.length && <S.NoPosts>Nenhuma postagem</S.NoPosts>}
       {showSeeMore &&
         <S.SeeMore
+          data-testid='see-more-posts'
           onClick={() => setCounter(counter + postsPerLoad)}
         >
           Ver mais

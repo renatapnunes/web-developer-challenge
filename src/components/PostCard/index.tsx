@@ -14,8 +14,8 @@ const PostCard = ({ post, index }: PostProps) => {
   const dispatch = useAppDispatch()
 
   return (
-    <S.Card>
-      <S.PostDelete onClick={() => dispatch(deletePost(index))} />
+    <S.Card data-testid='post-card'>
+      <S.PostDelete data-testid='delete-post' onClick={() => dispatch(deletePost(index))} />
       <S.ProfileImage src={profileImage} alt={name} />
       <S.PostContainer>
         <S.Message>{message}</S.Message>

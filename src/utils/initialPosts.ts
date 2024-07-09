@@ -1,9 +1,7 @@
 export const initialPosts = [
   {
-    profileImage: `https://img.freepik.com/psd-gratuitas/
-      renderizacao-3d-do-personagem-avatar_23-2150611713.jpg?
-      t=st=1720466433~exp=1720470033~hmac=769ee431b26e4b12c17
-      bec847a42c4f33571e2ed6e8f859a532ceee5597ce4c7&w=740`,
+    profileImage: `https://img.freepik.com/vetores-gratis/mulher-com-cabelos-longos-e-pretos_90220-2937.jpg?t=st=1720533291~exp=1720536891~hmac=
+      c3380880befe14a425d29e56644d6ff42ec4a2e450ead8c0c7edbc4a3fac02e1&w=740`,
     name: 'Maria Carolina Castro',
     message: `Lorem Ipsum is simply dummy text of the printing
       and typesetting industry. Lorem Ipsum has been the industry's
@@ -15,10 +13,8 @@ export const initialPosts = [
       unchanged.`,
   },
   {
-    profileImage: `https://img.freepik.com/psd-gratuitas
-      renderizacao-3d-do-personagem-avatar_23-2150611722.jpg?
-      t=st=1720470288~exp=1720473888~hmac=
-      7e3df906e89b6d1102f3ec92bf8234cb43b1ce3e8a46728a2c397c2a19a0759f&w=740`,
+    profileImage: `https://img.freepik.com/vetores-gratis/homem-de-camisa-vermelha-com-colarinho-branco_90220-2873.jpg?t=st=1720533193~
+      exp=1720536793~hmac=62aac98658351bcb11841f5f2c7eddcc7a4e1cf51920aa14605b897b4a68b38f&w=740`,
     name: 'Pedro Silva',
     message: `Where can I get some. There are many variations
       of passages of Lorem Ipsum available,
@@ -27,11 +23,9 @@ export const initialPosts = [
       words which don't look even slightly believable.`,
   },
   {
-    profileImage: `https://img.freepik.com/psd-gratuitas/
-      renderizacao-3d-do-personagem-avatar_23-2150611725.jpg?
-      t=st=1720470388~exp=1720473988~hmac=
-      e07ec55b9c9bf512f23483faaab90dc6212a79fe370309f8d7b33a7cb94c00f5&w=740`,
-    name: 'Gabi Motta',
+    profileImage: `https://img.freepik.com/vetores-gratis/avatar-de-mulher-de-estilo-plano_90220-2944.jpg?t=st=1720533287~exp=1720536887~hmac=
+      5b8cee6ef59a60ba56c2161b9e75451103c95ddd8392dcf71d969742ff3bdf6b&w=740`,
+    name: 'Manuela Oliveira',
     message: `The standard chunk of Lorem Ipsum used since the
       1500s is reproduced below for those 
       interested. Sections 1.10.32 and 1.10.33 from

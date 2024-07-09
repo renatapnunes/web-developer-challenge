@@ -47,8 +47,9 @@ const Form = () => {
           <S.ImageDelete onClick={() => setProfileImage('')} />
         </>
       ) : (
-        <S.ImageContainer htmlFor='image-input'>
+        <S.ImageContainer htmlFor='image-input' data-testid='image-input'>
           <S.ImageInput
+            data-testid='image-inputs'
             id='image-input'
             type="file"
             accept=".png, .jpeg, .jpg"
@@ -71,6 +72,7 @@ const Form = () => {
       <S.ButtonsContainer >
         <S.Discard onClick={clearForm}>Descartar</S.Discard>
         <S.Publish
+          data-testid='publish-button'
           disabled={desabledPublish}
           onClick={publish}
         >
