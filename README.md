@@ -3,6 +3,8 @@
 
 _Projeto desenvolvido para o Desafio Técnico da Buildbox
 
+➡️ Acesse à aplicação por este link: [Projeto Web Developer Challenge](https://web-developer-challenge-ij1d.vercel.app/)
+
 ### ➤ Contexto
 Este projeto consiste em uma aplicação front-end que exibe postagens através de um feed,
 permitindo o usuário criar seu próprio post e também visualizar os já existentes.
