@@ -8,6 +8,9 @@ module.exports = {
     "^.+\\.(jpg|jpeg|png|gif|webp|avif|svg|ttf|woff|woff2)$": `<rootDir>/__mocks__/fileMock.js`,
     "^@/(.*)$": "<rootDir>/src/$1",
   },
+  collectCoverage: true,
+  coverageDirectory: 'coverage',
+  coverageReporters: ['json', 'lcov', 'text', 'clover'],
   verbose: true,
   testTimeout: 30000,
 }
